@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const Schema = moogose.Schema;
+const Schema = mongoose.Schema;
 
-const CosmeticsSchema = new moogose.Schema(
+const cosmeticsSchema = new mongoose.Schema(
   {
     brandName: {
       type: String,
@@ -47,4 +47,4 @@ const CosmeticsSchema = new moogose.Schema(
 
 const Cosmetics = mongoose.model("Cosmetic", cosmeticsSchema);
 
-module.export = Cosmetics;
+module.exports = Cosmetics;

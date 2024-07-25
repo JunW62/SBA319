@@ -12,4 +12,4 @@ const conn = () => {
     );
   }
 };
-module.export = conn;
+module.exports = conn;

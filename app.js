@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
+require("dotenv").config();
+
+const PORT = process.env.PORT;
 
 const conn = require("./db/conn");
 conn();
-
-require("dotenv").config();
-const Port = process.env.Port;
 
 const cosmeticsRoute = require("./routes/cosmeticsRoute");
 
@@ -17,5 +17,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port: ${PORT}`);
+  console.log(`Server is running on PORT: ${PORT}`);
 });
