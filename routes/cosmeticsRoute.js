@@ -41,33 +41,6 @@ router.post("/", async (req, res) => {
   }
 });
 
-// router.put("/:id", async (req, res) => {
-//   try {
-//     const updateCosmetic = await Cosmetics.findByIdAndUpdate(
-//       req.params.id,
-//       {
-//         brandName: req.body.brandName,
-//         productName: req.body.productName,
-//         category: req.body.category,
-//         location: req.body.location,
-//         price: req.body.price,
-//         manufactureDate: req.body.manufactureDate,
-//         expirationDate: req.body.expirationDate,
-//         comments: req.body.comments,
-//       },
-//       { new: true }
-//     );
-//     if (!updateCosmetic) {
-//       return res.status(404).json({ message: "Cosmetic not found" });
-//     }
-//     res.json(updateCosmetic);
-//   } catch (error) {
-//     res
-//       .status(500)
-//       .json({ message: "Error updating cosmetic", error: error.message });
-//   }
-// });
-
 router.put("/:id", async (req, res) => {
   try {
     const updateCosmetic = await Cosmetics.findByIdAndUpdate(
