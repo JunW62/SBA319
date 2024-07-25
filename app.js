@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 app.use(express.json());
+
 require("dotenv").config();
 
 const PORT = process.env.PORT;
@@ -13,7 +14,7 @@ const cosmeticsRoute = require("./routes/cosmeticsRoute");
 app.use("/api/cosmetics", cosmeticsRoute);
 
 app.get("/", (req, res) => {
-  res.send("Home");
+  res.send("Home Route");
 });
 
 app.listen(PORT, () => {
