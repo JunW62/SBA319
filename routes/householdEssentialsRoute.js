@@ -20,12 +20,10 @@ router.get("/", async (req, res) => {
     const allItems = await HouseholdEssential.find({});
     res.json(allItems);
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        message: "Error fetching household essentials",
-        error: error.message,
-      });
+    res.status(500).json({
+      message: "Error fetching household essentials",
+      error: error.message,
+    });
   }
 });
 
@@ -38,12 +36,10 @@ router.get("/:id", async (req, res) => {
       res.status(404).json({ message: "Household essential not found" });
     }
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        message: "Error fetching household essential by id",
-        error: error.message,
-      });
+    res.status(500).json({
+      message: "Error fetching household essential by id",
+      error: error.message,
+    });
   }
 });
 
@@ -52,12 +48,10 @@ router.post("/", async (req, res) => {
     const newItem = await HouseholdEssential.create(req.body);
     res.status(201).json(newItem);
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        message: "Error creating household essential",
-        error: error.message,
-      });
+    res.status(500).json({
+      message: "Error creating household essential",
+      error: error.message,
+    });
   }
 });
 
@@ -74,12 +68,10 @@ router.put("/:id", async (req, res) => {
       res.status(404).json({ message: "Household essential not found" });
     }
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        message: "Error updating household essential",
-        error: error.message,
-      });
+    res.status(500).json({
+      message: "Error updating household essential",
+      error: error.message,
+    });
   }
 });
 
@@ -96,12 +88,10 @@ router.delete("/:id", async (req, res) => {
       res.status(404).json({ message: "Household essential not found" });
     }
   } catch (error) {
-    res
-      .status(500)
-      .json({
-        message: "Error deleting household essential",
-        error: error.message,
-      });
+    res.status(500).json({
+      message: "Error deleting household essential",
+      error: error.message,
+    });
   }
 });
 

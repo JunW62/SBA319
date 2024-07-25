@@ -58,7 +58,7 @@ router.put("/:id", async (req, res) => {
   try {
     const updateFood = await Foods.findByIdAndUpdate(
       req.params.id,
-      { $set: req.body }, // Assuming you want to update all provided fields
+      { $set: req.body },
       { new: true }
     );
     if (updateFood) {

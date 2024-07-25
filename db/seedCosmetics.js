@@ -5,8 +5,8 @@ const cosmetcisData = [
     category: "Skincare",
     location: "Shelf 1",
     price: 29.95,
-    manufactureDate: new Date(2022, 0, 15), // January 15, 2022
-    expirationDate: new Date(2024, 0, 15), // January 15, 2024
+    manufactureDate: new Date(2022, 0, 15),
+    expirationDate: new Date(2024, 0, 15),
     comments: "Best seller",
   },
   {
@@ -15,8 +15,8 @@ const cosmetcisData = [
     category: "Skincare",
     location: "Shelf 2",
     price: 49.5,
-    manufactureDate: new Date(2022, 3, 10), // April 10, 2022
-    expirationDate: new Date(2025, 3, 10), // April 10, 2025
+    manufactureDate: new Date(2022, 3, 10),
+    expirationDate: new Date(2025, 3, 10),
     comments: "For sensitive skin",
   },
   {
@@ -25,8 +25,8 @@ const cosmetcisData = [
     category: "Makeup",
     location: "Shelf 3",
     price: 31.0,
-    manufactureDate: new Date(2023, 1, 1), // February 1, 2023
-    expirationDate: new Date(2026, 1, 1), // February 1, 2026
+    manufactureDate: new Date(2023, 1, 1),
+    expirationDate: new Date(2026, 1, 1),
     comments: "Long-lasting foundation",
   },
   {
@@ -35,8 +35,8 @@ const cosmetcisData = [
     category: "Skincare",
     location: "Shelf 4",
     price: 100.0,
-    manufactureDate: new Date(2022, 11, 25), // December 25, 2022
-    expirationDate: new Date(2024, 11, 25), // December 25, 2024
+    manufactureDate: new Date(2022, 11, 25),
+    expirationDate: new Date(2024, 11, 25),
     comments: "Anti-aging serum",
   },
   {
@@ -45,8 +45,8 @@ const cosmetcisData = [
     category: "Skincare",
     location: "Shelf 5",
     price: 21.49,
-    manufactureDate: new Date(2023, 5, 15), // June 15, 2023
-    expirationDate: new Date(2025, 5, 15), // June 15, 2025
+    manufactureDate: new Date(2023, 5, 15),
+    expirationDate: new Date(2025, 5, 15),
     comments: "Hydrating moisturizer",
   },
 ];

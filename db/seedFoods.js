@@ -5,8 +5,8 @@ const foodsData = [
     category: "Fruits",
     location: "Cooler Section",
     price: 3.99,
-    manufactureDate: new Date(2024, 6, 1), // July 1, 2024
-    expirationDate: new Date(2024, 6, 15), // July 15, 2024
+    manufactureDate: new Date(2024, 6, 1),
+    expirationDate: new Date(2024, 6, 15),
     ingredients: ["Blueberries"],
     nutritionalValue: {
       calories: 85,
@@ -22,8 +22,8 @@ const foodsData = [
     category: "Nut butters",
     location: "Aisle 3",
     price: 7.99,
-    manufactureDate: new Date(2024, 5, 20), // June 20, 2024
-    expirationDate: new Date(2025, 5, 20), // June 20, 2025
+    manufactureDate: new Date(2024, 5, 20),
+    expirationDate: new Date(2025, 5, 20),
     ingredients: ["Almonds", "Salt"],
     nutritionalValue: {
       calories: 190,
@@ -39,8 +39,8 @@ const foodsData = [
     category: "Grains",
     location: "Aisle 6",
     price: 9.49,
-    manufactureDate: new Date(2024, 4, 15), // May 15, 2024
-    expirationDate: new Date(2027, 4, 15), // May 15, 2027
+    manufactureDate: new Date(2024, 4, 15),
+    expirationDate: new Date(2027, 4, 15),
     ingredients: ["Quinoa"],
     nutritionalValue: {
       calories: 222,
@@ -56,8 +56,8 @@ const foodsData = [
     category: "Eggs",
     location: "Cooler Section",
     price: 4.99,
-    manufactureDate: new Date(2024, 6, 10), // July 10, 2024
-    expirationDate: new Date(2024, 6, 30), // July 30, 2024
+    manufactureDate: new Date(2024, 6, 10),
+    expirationDate: new Date(2024, 6, 30),
     ingredients: ["Eggs"],
     nutritionalValue: {
       calories: 70,
@@ -73,8 +73,8 @@ const foodsData = [
     category: "Frozen Foods",
     location: "Freezer Section",
     price: 2.99,
-    manufactureDate: new Date(2024, 2, 15), // March 15, 2024
-    expirationDate: new Date(2025, 2, 15), // March 15, 2025
+    manufactureDate: new Date(2024, 2, 15),
+    expirationDate: new Date(2025, 2, 15),
     ingredients: ["Carrots", "Peas", "Corn", "Green Beans"],
     nutritionalValue: {
       calories: 60,
